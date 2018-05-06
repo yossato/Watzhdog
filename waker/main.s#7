@@ -6129,7 +6129,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="MP" library="testpad" deviceset="PTR1" device="TP10R"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R16" library="reg,cap" deviceset="R-" device="1005" value="10k"/>
-<part name="R17" library="reg,cap" deviceset="R-" device="1005" value="1k"/>
+<part name="R17" library="reg,cap" deviceset="R-" device="1005" value="100"/>
 </parts>
 <sheets>
 <sheet>
