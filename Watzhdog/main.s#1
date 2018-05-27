@@ -12986,8 +12986,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R12" library="reg,cap" deviceset="R-" device="1005" value="100k"/>
 <part name="SUPPLY2" library="supply2" deviceset="DGND" device=""/>
-<part name="D2" library="diode" deviceset="DIODE-" device="SOD323-W"/>
-<part name="D4" library="diode" deviceset="DIODE-" device="SOD323-W"/>
+<part name="D2" library="diode" deviceset="DIODE-" device="SOD323-W" value="CUS08F30"/>
+<part name="D4" library="diode" deviceset="DIODE-" device="SOD323-W" value="CUS08F30"/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM"/>
 <part name="GND2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="DGND" device=""/>
 <part name="R13" library="reg,cap" deviceset="R-" device="1005" value="10k"/>

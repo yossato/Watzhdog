@@ -13225,7 +13225,7 @@ Source: AVX .. aphvc.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="VBAT" class="0">
+<net name="VBAT" class="1">
 <segment>
 <wire x1="127" y1="20.32" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="127" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
@@ -13292,7 +13292,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U1" gate="G$1" pin="STAT"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="1">
 <segment>
 <wire x1="177.8" y1="22.86" x2="193.04" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="2.54" x2="193.04" y2="2.54" width="0.1524" layer="91"/>
