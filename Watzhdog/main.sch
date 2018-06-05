@@ -13007,7 +13007,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="CN1" library="Connector" deviceset="MICROUSB(MC-5F-02)" device=""/>
 <part name="C2" library="CH_passive" deviceset="CAP" device="0805" value="22uF"/>
 <part name="R1" library="reg,cap" deviceset="R-" device="1005" value="1k (Optional)"/>
-<part name="C4" library="CH_passive" deviceset="CAP" device="0805" value="22uF"/>
+<part name="C6" library="CH_passive" deviceset="CAP" device="0805" value="22uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13114,9 +13114,9 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="83.82" y="15.24" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="210.82" y="43.18" rot="R90"/>
-<instance part="C4" gate="G$1" x="353.06" y="-60.96" smashed="yes">
-<attribute name="NAME" x="355.6" y="-58.42" size="1.778" layer="95"/>
-<attribute name="VALUE" x="355.6" y="-60.96" size="1.778" layer="96"/>
+<instance part="C6" gate="G$1" x="327.66" y="-73.66" smashed="yes">
+<attribute name="NAME" x="330.2" y="-71.12" size="1.778" layer="95"/>
+<attribute name="VALUE" x="330.2" y="-73.66" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13294,6 +13294,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="FET1" gate="G$1" pin="S"/>
 <pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
 <wire x1="353.06" y1="-78.74" x2="353.06" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="353.06" y1="-78.74" x2="327.66" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-78.74" x2="327.66" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="353.06" y="-78.74"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
@@ -13678,8 +13682,10 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="MP" gate="G$1" pin="TP"/>
 <wire x1="353.06" y1="-55.88" x2="353.06" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="VCC" pin="VCC"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<junction x="353.06" y="-55.88"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="327.66" y1="-68.58" x2="327.66" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="-50.8" x2="353.06" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="353.06" y="-50.8"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -13740,8 +13746,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="MN" gate="G$1" pin="TP"/>
 <pinref part="FET1" gate="G$1" pin="D"/>
 <wire x1="353.06" y1="-63.5" x2="353.06" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<junction x="353.06" y="-63.5"/>
 </segment>
 </net>
 <net name="N$11" class="0">
