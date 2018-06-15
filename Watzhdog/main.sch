@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -12769,7 +12769,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="99.06" y1="25.4" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="1">
+<net name="LIN" class="1">
 <segment>
 <wire x1="250.19" y1="30.48" x2="252.73" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="252.73" y1="30.48" x2="252.73" y2="50.8" width="0.1524" layer="91"/>
@@ -12778,7 +12778,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="240.03" y1="50.8" x2="252.73" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VAUX" class="0">
 <segment>
 <wire x1="260.35" y1="22.86" x2="260.35" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="260.35" y1="25.4" x2="250.19" y2="25.4" width="0.1524" layer="91"/>
@@ -12797,7 +12797,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="DGND" class="1">
+<net name="DGND2" class="1">
 <segment>
 <pinref part="C7" gate="G$1" pin="P$1"/>
 <pinref part="SUPPLY7" gate="G$1" pin="DGND"/>
