@@ -13740,9 +13740,12 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="375.92" y="-76.2"/>
 <label x="383.54" y="-76.2" size="1.778" layer="95"/>
 <pinref part="R17" gate="G$1" pin="P$2"/>
-<pinref part="IC1" gate="G$1" pin="P2.7"/>
 <wire x1="393.7" y1="-76.2" x2="375.92" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="33.02" x2="393.7" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="P0.2/XTAL1"/>
+<wire x1="393.7" y1="-30.48" x2="393.7" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="81.28" x2="345.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="81.28" x2="345.44" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-30.48" x2="393.7" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">

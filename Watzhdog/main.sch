@@ -12483,11 +12483,9 @@ Source: AVX .. aphvc.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0.3048">
-<clearance class="0" value="0.1524"/>
+<class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="PWR" width="0.254" drill="0.3048">
-<clearance class="1" value="0.1524"/>
+<class number="1" name="PWR" width="0" drill="0">
 </class>
 </classes>
 <parts>
