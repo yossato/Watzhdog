@@ -12735,166 +12735,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="DGND2" class="1">
-<segment>
-<pinref part="C7" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY7" gate="G$1" pin="DGND"/>
-<wire x1="444.5" y1="-85.09" x2="444.5" y2="-83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="459.74" y1="-85.09" x2="459.74" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY8" gate="G$1" pin="DGND"/>
-<pinref part="IC6" gate="G$1" pin="FSSYNC"/>
-<wire x1="454.66" y1="-86.36" x2="454.66" y2="-85.09" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="-85.09" x2="454.66" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="454.66" y1="-85.09" x2="459.74" y2="-85.09" width="0.1524" layer="91"/>
-<junction x="454.66" y="-85.09"/>
-</segment>
-<segment>
-<wire x1="459.74" y1="-15.24" x2="459.74" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="459.74" y1="-12.7" x2="492.76" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="-12.7" x2="492.76" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="-30.48" x2="492.76" y2="-31.75" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="G$1" pin="DGND"/>
-<pinref part="IC6" gate="G$1" pin="RESV20"/>
-<pinref part="IC6" gate="G$1" pin="GND"/>
-<wire x1="480.06" y1="-30.48" x2="492.76" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="492.76" y="-30.48"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY10" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="SUPPLY6" gate="G$1" pin="DGND"/>
-<pinref part="C10" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<wire x1="373.38" y1="60.96" x2="370.84" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY11" gate="G$1" pin="DGND"/>
-<wire x1="370.84" y1="45.72" x2="370.84" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C11" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY13" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<wire x1="342.9" y1="137.16" x2="353.06" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VSS"/>
-<pinref part="SUPPLY14" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$2" pin="BOTTOM/GND"/>
-<pinref part="SUPPLY27" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="SUPPLY18" gate="G$1" pin="DGND"/>
-<pinref part="LED1" gate="G$1" pin="K"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$2" pin="BOTTOM/GND"/>
-<pinref part="SUPPLY28" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<wire x1="382.27" y1="121.92" x2="382.27" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="382.27" y1="124.46" x2="384.81" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY19" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="D3" gate="G$1" pin="1"/>
-<pinref part="SUPPLY4" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="R12" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
-<wire x1="317.5" y1="36.83" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND2" gate="G$1" pin="DGND"/>
-<pinref part="R13" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="P$1"/>
-<pinref part="GND4" gate="G$1" pin="DGND"/>
-<wire x1="196.85" y1="12.7" x2="196.85" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R15" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="FET1" gate="G$1" pin="S"/>
-<pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
-<wire x1="326.39" y1="78.74" x2="326.39" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="326.39" y1="78.74" x2="300.99" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="300.99" y1="78.74" x2="300.99" y2="81.28" width="0.1524" layer="91"/>
-<junction x="326.39" y="78.74"/>
-</segment>
-<segment>
-<wire x1="317.5" y1="7.62" x2="327.66" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="7.62" x2="327.66" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
-<label x="322.58" y="7.62" size="1.778" layer="95"/>
-<pinref part="JP4" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="143.51" y1="38.1" x2="143.51" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="GND14" gate="G$1" pin="DGND"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="80.01" y1="38.1" x2="80.01" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="G$1" pin="DGND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="121.92" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="45.72" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VSS"/>
-<pinref part="GND18" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="GND19" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="GND15" gate="G$1" pin="DGND"/>
-<wire x1="39.37" y1="41.91" x2="39.37" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="44.45" x2="34.29" y2="44.45" width="0.1524" layer="91"/>
-<pinref part="CN1" gate="G$1" pin="P$5"/>
-</segment>
-<segment>
-<wire x1="156.21" y1="53.34" x2="156.21" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="G$1" pin="DGND"/>
-<pinref part="JP1" gate="G$1" pin="-"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="GND7" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<wire x1="214.63" y1="20.32" x2="204.47" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="204.47" y1="20.32" x2="204.47" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="G$1" pin="DGND"/>
-<pinref part="U2" gate="G$1" pin="PS"/>
-<wire x1="214.63" y1="25.4" x2="204.47" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="25.4" x2="204.47" y2="20.32" width="0.1524" layer="91"/>
-<junction x="204.47" y="20.32"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="GND8" gate="G$1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="P$1"/>
-<pinref part="SUPPLY12" gate="G$1" pin="DGND"/>
-</segment>
-</net>
 <net name="C2CK" class="0">
 <segment>
 <wire x1="337.82" y1="12.7" x2="388.62" y2="12.7" width="0.1524" layer="91"/>
@@ -13357,7 +13197,172 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
-<net name="PGND" class="0">
+<net name="DGND" class="0">
+<segment>
+<pinref part="PGND4" gate="A" pin="PGND"/>
+<wire x1="224.79" y1="0" x2="224.79" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="2.54" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="G$1" pin="DGND"/>
+<wire x1="236.22" y1="2.54" x2="236.22" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY7" gate="G$1" pin="DGND"/>
+<wire x1="444.5" y1="-85.09" x2="444.5" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="459.74" y1="-85.09" x2="459.74" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY8" gate="G$1" pin="DGND"/>
+<pinref part="IC6" gate="G$1" pin="FSSYNC"/>
+<wire x1="454.66" y1="-86.36" x2="454.66" y2="-85.09" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="-85.09" x2="454.66" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="-85.09" x2="459.74" y2="-85.09" width="0.1524" layer="91"/>
+<junction x="454.66" y="-85.09"/>
+</segment>
+<segment>
+<wire x1="459.74" y1="-15.24" x2="459.74" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="459.74" y1="-12.7" x2="492.76" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="-12.7" x2="492.76" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="-30.48" x2="492.76" y2="-31.75" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="DGND"/>
+<pinref part="IC6" gate="G$1" pin="RESV20"/>
+<pinref part="IC6" gate="G$1" pin="GND"/>
+<wire x1="480.06" y1="-30.48" x2="492.76" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="492.76" y="-30.48"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY10" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY6" gate="G$1" pin="DGND"/>
+<pinref part="C10" gate="G$1" pin="P$1"/>
+</segment>
+<segment>
+<wire x1="373.38" y1="60.96" x2="370.84" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY11" gate="G$1" pin="DGND"/>
+<wire x1="370.84" y1="45.72" x2="370.84" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY13" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<wire x1="342.9" y1="137.16" x2="353.06" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VSS"/>
+<pinref part="SUPPLY14" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$2" pin="BOTTOM/GND"/>
+<pinref part="SUPPLY27" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY18" gate="G$1" pin="DGND"/>
+<pinref part="LED1" gate="G$1" pin="K"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$2" pin="BOTTOM/GND"/>
+<pinref part="SUPPLY28" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<wire x1="382.27" y1="121.92" x2="382.27" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="382.27" y1="124.46" x2="384.81" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R26" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY19" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY4" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY2" gate="G$1" pin="DGND"/>
+<wire x1="317.5" y1="36.83" x2="317.5" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="G$1" pin="DGND"/>
+<pinref part="R13" gate="G$1" pin="P$1"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="P$1"/>
+<pinref part="GND4" gate="G$1" pin="DGND"/>
+<wire x1="196.85" y1="12.7" x2="196.85" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="FET1" gate="G$1" pin="S"/>
+<pinref part="SUPPLY5" gate="G$1" pin="DGND"/>
+<wire x1="326.39" y1="78.74" x2="326.39" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="326.39" y1="78.74" x2="300.99" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="300.99" y1="78.74" x2="300.99" y2="81.28" width="0.1524" layer="91"/>
+<junction x="326.39" y="78.74"/>
+</segment>
+<segment>
+<wire x1="317.5" y1="7.62" x2="327.66" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="7.62" x2="327.66" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
+<label x="322.58" y="7.62" size="1.778" layer="95"/>
+<pinref part="JP4" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<wire x1="143.51" y1="38.1" x2="143.51" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="G$1" pin="DGND"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="80.01" y1="38.1" x2="80.01" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="G$1" pin="DGND"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="121.92" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="45.72" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VSS"/>
+<pinref part="GND18" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="GND19" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="G$1" pin="DGND"/>
+<wire x1="39.37" y1="41.91" x2="39.37" y2="44.45" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="44.45" x2="34.29" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="P$5"/>
+</segment>
+<segment>
+<wire x1="156.21" y1="53.34" x2="156.21" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="G$1" pin="DGND"/>
+<pinref part="JP1" gate="G$1" pin="-"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="GND7" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<wire x1="214.63" y1="20.32" x2="204.47" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="204.47" y1="20.32" x2="204.47" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="G$1" pin="DGND"/>
+<pinref part="U2" gate="G$1" pin="PS"/>
+<wire x1="214.63" y1="25.4" x2="204.47" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="25.4" x2="204.47" y2="20.32" width="0.1524" layer="91"/>
+<junction x="204.47" y="20.32"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="GND8" gate="G$1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="P$1"/>
+<pinref part="SUPPLY12" gate="G$1" pin="DGND"/>
+</segment>
 <segment>
 <pinref part="PGND3" gate="A" pin="PGND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -13390,11 +13395,6 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="252.73" y="15.24"/>
 <wire x1="252.73" y1="15.24" x2="252.73" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="PGND2" gate="A" pin="PGND"/>
-</segment>
-<segment>
-<pinref part="PGND4" gate="A" pin="PGND"/>
-<wire x1="224.79" y1="0" x2="224.79" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="2.54" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="P$1"/>
