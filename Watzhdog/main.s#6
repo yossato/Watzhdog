@@ -13454,11 +13454,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="PGND2" gate="A" pin="PGND"/>
 </segment>
 <segment>
-<pinref part="PGND4" gate="A" pin="PGND"/>
-<wire x1="224.79" y1="0" x2="224.79" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="2.54" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C12" gate="G$1" pin="P$1"/>
 <pinref part="PGND5" gate="A" pin="PGND"/>
 </segment>
@@ -13470,6 +13465,15 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="PGND7" gate="A" pin="PGND"/>
 <wire x1="281.94" y1="15.24" x2="281.94" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DGND" class="0">
+<segment>
+<pinref part="PGND4" gate="A" pin="PGND"/>
+<wire x1="224.79" y1="0" x2="224.79" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="2.54" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="G$1" pin="DGND"/>
+<wire x1="236.22" y1="0" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
