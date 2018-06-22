@@ -34,7 +34,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -150,6 +150,10 @@
 <rectangle x1="6.985" y1="27.94" x2="18.985" y2="60.94" layer="40"/>
 <wire x1="51.1" y1="64.1" x2="51.1" y2="30.4" width="0" layer="20"/>
 <wire x1="51.1" y1="64.1" x2="63.3" y2="64.1" width="0" layer="20"/>
+<wire x1="55.1" y1="47.1" x2="53.6" y2="47.1" width="0.1524" layer="41"/>
+<wire x1="53.6" y1="47.1" x2="53.5" y2="47" width="0.1524" layer="41"/>
+<wire x1="53.5" y1="47" x2="53.5" y2="41.5" width="0.1524" layer="41"/>
+<wire x1="56.2" y1="44.9" x2="56.2" y2="44.5" width="0.1524" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
@@ -2050,73 +2054,6 @@ design rules under a new name.</description>
 <wire x1="61" y1="44.7" x2="61" y2="45" width="0.2032" layer="1"/>
 <wire x1="59.775" y1="44.7" x2="61" y2="44.7" width="0.2032" layer="1"/>
 </signal>
-<signal name="DGND2" class="1">
-<contactref element="C7" pad="P$1"/>
-<contactref element="C8" pad="P$1"/>
-<contactref element="IC6" pad="11"/>
-<contactref element="IC6" pad="20"/>
-<contactref element="IC6" pad="18"/>
-<contactref element="C9" pad="P$1"/>
-<contactref element="IC1" pad="3"/>
-<contactref element="C10" pad="P$1"/>
-<contactref element="C11" pad="P$1"/>
-<contactref element="IC3" pad="4"/>
-<contactref element="IC1" pad="B"/>
-<contactref element="LED1" pad="K"/>
-<contactref element="IC3" pad="B"/>
-<contactref element="R26" pad="P$1"/>
-<contactref element="D3" pad="1"/>
-<contactref element="R12" pad="P$1"/>
-<contactref element="R13" pad="P$1"/>
-<contactref element="R14" pad="P$1"/>
-<contactref element="R15" pad="P$1"/>
-<contactref element="FET1" pad="S"/>
-<polygon width="0.2032" layer="16">
-<vertex x="2.5908" y="23.4188"/>
-<vertex x="2.6162" y="19.8882"/>
-<vertex x="32.3723" y="19.8882"/>
-<vertex x="32.3469" y="23.4188"/>
-</polygon>
-<contactref element="C3" pad="2"/>
-<contactref element="U1" pad="2"/>
-<contactref element="R4" pad="2"/>
-<contactref element="JP1" pad="1"/>
-<contactref element="CN1" pad="5"/>
-<contactref element="C2" pad="2"/>
-<contactref element="C6" pad="2"/>
-<polygon width="0.1524" layer="16" spacing="1.016" rank="6">
-<vertex x="50.7" y="64.285"/>
-<vertex x="63.6" y="64.285"/>
-<vertex x="63.6" y="30.27"/>
-<vertex x="50.7" y="30.27"/>
-</polygon>
-<contactref element="R5" pad="1"/>
-<contactref element="U2" pad="9"/>
-<contactref element="C5" pad="2"/>
-<contactref element="U2" pad="8"/>
-<contactref element="C14" pad="P$1"/>
-<via x="58.28" y="62.6059" extent="1-16" drill="0.3" shape="octagon"/>
-<via x="59.3" y="51.3" extent="1-16" drill="0.3" shape="octagon"/>
-<via x="58.53" y="61.1059" extent="1-16" drill="0.3" shape="octagon"/>
-<polygon width="0.1524" layer="1" spacing="1.016" thermals="no" rank="6">
-<vertex x="50.7" y="64.285"/>
-<vertex x="63.6" y="64.285"/>
-<vertex x="63.6" y="30.27"/>
-<vertex x="50.7" y="30.27"/>
-</polygon>
-<contactref element="JP4" pad="3"/>
-<via x="62.2" y="38.8" extent="1-16" drill="0.3" shape="octagon"/>
-<wire x1="58.625" y1="60" x2="60.8" y2="60" width="0.4064" layer="1"/>
-<wire x1="57.125825" y1="49.050121875" x2="55.7292875" y2="46.592928125" width="0" layer="19" extent="16-16"/>
-<wire x1="57.7" y1="50.8" x2="57.125825" y2="49.050121875" width="0" layer="19" extent="1-16"/>
-<wire x1="54.4" y1="52.3" x2="54.8" y2="52.3" width="0" layer="19" extent="1-16"/>
-<wire x1="55.2" y1="58.2" x2="54.1279" y2="57.7889" width="0" layer="19" extent="1-16"/>
-<wire x1="57" y1="52.3" x2="56" y2="53.1" width="0" layer="19" extent="1-16"/>
-<wire x1="58.8" y1="40.5" x2="59.775" y2="45.2" width="0" layer="19" extent="1-16"/>
-<wire x1="58.2008" y1="37.8276" x2="58.8" y2="40.5" width="0" layer="19" extent="1-16"/>
-<wire x1="57.39" y1="37.9" x2="58.2008" y2="37.8276" width="0" layer="19" extent="1-16"/>
-<wire x1="58.8" y1="36.9" x2="58.2008" y2="37.8276" width="0" layer="19" extent="1-16"/>
-</signal>
 <signal name="C2CK">
 <contactref element="IC1" pad="9"/>
 <contactref element="R11" pad="P$1"/>
@@ -2451,11 +2388,11 @@ design rules under a new name.</description>
 <contactref element="R17" pad="P$2"/>
 <contactref element="IC1" pad="32"/>
 <via x="57.9" y="54.4" extent="1-16" drill="0.3" shape="octagon"/>
-<wire x1="57.6" y1="52" x2="57.4" y2="51.8" width="0.1524" layer="16"/>
+<wire x1="57.6" y1="52" x2="57.3" y2="51.7" width="0.1524" layer="16"/>
 <wire x1="57.6" y1="54.1" x2="57.9" y2="54.4" width="0.1524" layer="16"/>
 <wire x1="57.6" y1="52" x2="57.6" y2="54.1" width="0.1524" layer="16"/>
-<wire x1="55.8" y1="51.8" x2="55.4" y2="51.4" width="0.1524" layer="16"/>
-<wire x1="57.4" y1="51.8" x2="55.8" y2="51.8" width="0.1524" layer="16"/>
+<wire x1="55.7" y1="51.7" x2="55.4" y2="51.4" width="0.1524" layer="16"/>
+<wire x1="57.3" y1="51.7" x2="55.7" y2="51.7" width="0.1524" layer="16"/>
 <wire x1="54.7" y1="50.3" x2="54.7" y2="50.0970875" width="0.1524" layer="16"/>
 <wire x1="54.7" y1="50.0970875" x2="55.039859375" y2="49.757228125" width="0.1524" layer="16"/>
 <wire x1="55.4" y1="51.4" x2="55.4" y2="51" width="0.1524" layer="16"/>
@@ -2529,17 +2466,13 @@ design rules under a new name.</description>
 <wire x1="52.5431" y1="59.3795" x2="52.3279" y2="59.1643" width="0.508" layer="1"/>
 <wire x1="52.3279" y1="59.1643" x2="52.3279" y2="57.7889" width="0.508" layer="1"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="57.2" y="44.1"/>
-<vertex x="55.6" y="44.1"/>
-<vertex x="54.9" y="43.4"/>
-<vertex x="54.9" y="42.6"/>
-<vertex x="53.8" y="42.6"/>
-<vertex x="53.8" y="44.3"/>
+<vertex x="56.6" y="35.6"/>
+<vertex x="56.6" y="40.4"/>
+<vertex x="57.2" y="41"/>
 <vertex x="57.2" y="44.3"/>
+<vertex x="53.8" y="44.3"/>
+<vertex x="53.8" y="35.6"/>
 </polygon>
-<wire x1="56.6" y1="42.6" x2="56.5" y2="41.3" width="0" layer="19" extent="1-1"/>
-<wire x1="56.825" y1="44.2" x2="56.6" y2="42.6" width="0" layer="19" extent="1-1"/>
-<wire x1="56.2008" y1="37.8276" x2="56.5" y2="41.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3" class="1">
 <contactref element="C1" pad="1"/>
@@ -2606,10 +2539,10 @@ design rules under a new name.</description>
 <via x="59" y="52.9" extent="1-16" drill="0.3" shape="octagon"/>
 <wire x1="59" y1="54.1" x2="59" y2="52.9" width="0.1524" layer="16"/>
 <wire x1="55.5" y1="50.3" x2="55.8" y2="50.6" width="0.254" layer="16"/>
-<wire x1="55.8" y1="50.6" x2="55.8" y2="51.2" width="0.254" layer="16"/>
-<wire x1="55.8" y1="51.2" x2="56" y2="51.4" width="0.254" layer="16"/>
-<wire x1="56" y1="51.4" x2="57.6" y2="51.4" width="0.254" layer="16"/>
-<wire x1="57.6" y1="51.4" x2="58" y2="51.8" width="0.254" layer="16"/>
+<wire x1="55.8" y1="50.6" x2="55.8" y2="51.1" width="0.254" layer="16"/>
+<wire x1="55.8" y1="51.1" x2="56" y2="51.3" width="0.254" layer="16"/>
+<wire x1="56" y1="51.3" x2="57.5" y2="51.3" width="0.254" layer="16"/>
+<wire x1="57.5" y1="51.3" x2="58" y2="51.8" width="0.254" layer="16"/>
 <wire x1="58" y1="51.8" x2="58" y2="51.9" width="0.254" layer="16"/>
 <wire x1="58" y1="51.9" x2="59" y2="52.9" width="0.254" layer="16"/>
 <wire x1="59" y1="52.9" x2="60" y2="51.9" width="0.254" layer="1"/>
@@ -2646,7 +2579,63 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="53.2" y1="52.3" x2="53.295" y2="52.405" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="PGND">
+<signal name="DGND">
+<contactref element="C7" pad="P$1"/>
+<contactref element="C8" pad="P$1"/>
+<contactref element="IC6" pad="11"/>
+<contactref element="IC6" pad="20"/>
+<contactref element="IC6" pad="18"/>
+<contactref element="C9" pad="P$1"/>
+<contactref element="IC1" pad="3"/>
+<contactref element="C10" pad="P$1"/>
+<contactref element="C11" pad="P$1"/>
+<contactref element="IC3" pad="4"/>
+<contactref element="IC1" pad="B"/>
+<contactref element="LED1" pad="K"/>
+<contactref element="IC3" pad="B"/>
+<contactref element="R26" pad="P$1"/>
+<contactref element="D3" pad="1"/>
+<contactref element="R12" pad="P$1"/>
+<contactref element="R13" pad="P$1"/>
+<contactref element="R14" pad="P$1"/>
+<contactref element="R15" pad="P$1"/>
+<contactref element="FET1" pad="S"/>
+<polygon width="0.2032" layer="16">
+<vertex x="2.5908" y="23.4188"/>
+<vertex x="2.6162" y="19.8882"/>
+<vertex x="32.3723" y="19.8882"/>
+<vertex x="32.3469" y="23.4188"/>
+</polygon>
+<contactref element="C3" pad="2"/>
+<contactref element="U1" pad="2"/>
+<contactref element="R4" pad="2"/>
+<contactref element="JP1" pad="1"/>
+<contactref element="CN1" pad="5"/>
+<contactref element="C2" pad="2"/>
+<contactref element="C6" pad="2"/>
+<polygon width="0.1524" layer="16" spacing="1.016" thermals="no" rank="6">
+<vertex x="50.7" y="64.285"/>
+<vertex x="63.6" y="64.285"/>
+<vertex x="63.6" y="30.27"/>
+<vertex x="50.7" y="30.27"/>
+</polygon>
+<contactref element="R5" pad="1"/>
+<contactref element="U2" pad="9"/>
+<contactref element="C5" pad="2"/>
+<contactref element="U2" pad="8"/>
+<contactref element="C14" pad="P$1"/>
+<via x="58.28" y="62.6059" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="59.3" y="51.3" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="58.53" y="61.1059" extent="1-16" drill="0.3" shape="octagon"/>
+<polygon width="0.1524" layer="1" spacing="1.016" thermals="no" rank="6">
+<vertex x="50.7" y="64.285"/>
+<vertex x="63.6" y="64.285"/>
+<vertex x="63.6" y="30.27"/>
+<vertex x="50.7" y="30.27"/>
+</polygon>
+<contactref element="JP4" pad="3"/>
+<via x="62.2" y="38.8" extent="1-16" drill="0.3" shape="octagon"/>
+<wire x1="58.625" y1="60" x2="60.8" y2="60" width="0.4064" layer="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U2" pad="15"/>
 <contactref element="U2" pad="11"/>
@@ -2657,15 +2646,18 @@ design rules under a new name.</description>
 <contactref element="C12" pad="P$1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C13" pad="2"/>
-<wire x1="57.7" y1="48" x2="57.7" y2="49.5" width="0" layer="19" extent="1-1"/>
-<wire x1="58.05" y1="46.7" x2="57.7" y2="48" width="0" layer="19" extent="1-1"/>
-<wire x1="58.55" y1="46.7" x2="58.05" y2="46.7" width="0" layer="19" extent="1-1"/>
-<wire x1="58.3" y1="45.2" x2="58.05" y2="46.7" width="0" layer="19" extent="1-1"/>
-<wire x1="58.55" y1="43.7" x2="58.3" y2="45.2" width="0" layer="19" extent="1-1"/>
-<wire x1="58.05" y1="43.7" x2="58.55" y2="43.7" width="0" layer="19" extent="1-1"/>
-<wire x1="57.8" y1="42.6" x2="58.05" y2="43.7" width="0" layer="19" extent="1-1"/>
-<wire x1="58.3" y1="41.3" x2="57.8" y2="42.6" width="0" layer="19" extent="1-1"/>
-<wire x1="56.825" y1="44.7" x2="58.3" y2="45.2" width="0" layer="19" extent="1-1"/>
+<via x="57" y="52.3" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="55.2" y="58.2" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="55.2" y="60.2" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="55.2" y="56.2" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="60.95" y="60" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="57.7" y="50.6" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="58.7" y="42.7" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="58.8" y="40.5" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="58.2" y="35" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="54.4" y="35.2" extent="1-16" drill="0.3" shape="octagon"/>
+<via x="52.4" y="37.7" extent="1-16" drill="0.3" shape="octagon"/>
+<wire x1="54.4" y1="52.3" x2="54.8" y2="52.3" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <errors>

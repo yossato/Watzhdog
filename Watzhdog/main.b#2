@@ -8,18 +8,18 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -1933,17 +1933,17 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="D2" library="SparkFun-LED" package="LED-0603" value="RED" x="53.4" y="62.3425" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.289" y="61.644" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="NAME" x="52.811" y="63.056" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="PROD_ID" value="DIO-00819" x="15.3" y="48.3725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="54.416" y="63.422" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330" x="55.8" y="62.5" smashed="yes">
-<attribute name="NAME" x="55.165" y="63.135" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="55.265" y="63.035" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="SPICEPREFIX" value="R" x="55.8" y="62.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.165" y="60.595" size="1.27" layer="27"/>
 </element>
 <element name="U1" library="SparkFun-PowerIC" package="SOT23-5" value="MCP73831" x="52.7432" y="59.9295" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.9022" y="60.8185" size="0.8128" layer="25" font="vector" ratio="13" rot="R270"/>
+<attribute name="NAME" x="50.9022" y="62.6185" size="0.8128" layer="25" font="vector" ratio="13" rot="R270"/>
 <attribute name="PROD_ID" value="IC-09995" x="90.8432" y="75.1695" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="52.5527" y="60.882" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -1953,120 +1953,188 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="55.1673" y="59.5391" size="1.27" layer="27"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="4.7uF" x="55.5" y="59.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.738" y="58.511" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
+<attribute name="NAME" x="55.938" y="56.711" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 <attribute name="PROD_ID" value="CAP-08280" x="28.83" y="36.54" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="56.643" y="58.384" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="JST-2-SMD" value="JST" x="56.1008" y="33.7276" smashed="yes" rot="R180">
-<attribute name="NAME" x="57.3708" y="32.4576" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="NAME" x="54.1708" y="39.5576" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
 <attribute name="PROD_ID" value="CONN-08352" x="101.8208" y="34.9976" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="57.3708" y="33.7276" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="C6" library="CH_passive" package="0805" value="22uF" x="55.7" y="49.1" smashed="yes">
-<attribute name="NAME" x="54.938" y="49.9255" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="53.138" y="48.7255" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="54.684" y="47.703" size="0.4064" layer="27"/>
 </element>
 <element name="U2" library="SparkFun" package="QFN-10_PAD" value="TPS61201" x="57.2" y="44.8" smashed="yes" rot="R270"/>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="0.1uF" x="56" y="50.4" smashed="yes">
-<attribute name="NAME" x="55.5" y="50.825" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="56.5" y="50.925" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="SPICEPREFIX" value="C" x="56" y="50.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.5" y="48.95" size="1.016" layer="27"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="2M" x="60.4" y="43.55" smashed="yes">
-<attribute name="NAME" x="59.765" y="44.185" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="61.565" y="44.285" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="SPICEPREFIX" value="R" x="60.4" y="43.55" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="59.765" y="41.645" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="220k" x="60.4" y="44.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="61.035" y="43.965" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="NAME" x="61.565" y="43.135" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="SPICEPREFIX" value="R" x="60.4" y="44.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="61.035" y="46.505" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L1" library="SparkFun" package="CDRH2D09" value="4.7uH, 1.2A" x="53.3" y="44.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="54" y="41.5" size="0.8128" layer="25" font="vector" ratio="13" rot="R270"/>
+<attribute name="NAME" x="53" y="41.9" size="0.8128" layer="25" font="vector" ratio="13" rot="R270"/>
 <attribute name="VALUE" x="52.3" y="41.5" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="IC2" library="C8051F34x" package="QFN32" value="C8051F381-GM" x="54.6292875" y="46.192928125" rot="MR315"/>
-<element name="C12" library="reg,cap" package="1005" value="10n" x="57.7" y="39.5" rot="MR270"/>
-<element name="C13" library="reg,cap" package="1005" value="0.1u" x="57.8" y="37.1" rot="MR90"/>
-<element name="C14" library="reg,cap" package="1005" value="0.1u" x="54.7" y="34.8" rot="MR180"/>
-<element name="C9" library="reg,cap" package="1005" value="1.0u" x="58.1" y="49.5" rot="MR270"/>
-<element name="IC1" library="EEPROM" package="V-PDFN-8" value="N25Q512A" x="54.1" y="57.8" rot="MR270"/>
+<element name="IC2" library="C8051F34x" package="QFN32" value="C8051F381-GM" x="54.6292875" y="46.192928125" smashed="yes" rot="MR315">
+<attribute name="NAME" x="54.6292875" y="50.43556875" size="0.8128" layer="26" font="vector" ratio="13" rot="MR315"/>
+<attribute name="VALUE" x="59.5790375" y="45.48581875" size="0.8128" layer="28" rot="MR315"/>
+</element>
+<element name="C12" library="reg,cap" package="1005" value="10n" x="57.7" y="39.5" smashed="yes" rot="MR270">
+<attribute name="NAME" x="57.238" y="40.535" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="59.605" y="40.135" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="C13" library="reg,cap" package="1005" value="0.1u" x="57.8" y="37.1" smashed="yes" rot="MR90">
+<attribute name="NAME" x="58.262" y="36.165" size="0.8128" layer="26" font="vector" ratio="13" rot="MR90"/>
+<attribute name="VALUE" x="55.895" y="36.465" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="C14" library="reg,cap" package="1005" value="0.1u" x="54.7" y="34.8" smashed="yes" rot="MR180">
+<attribute name="NAME" x="55.665" y="35.138" size="0.8128" layer="26" font="vector" ratio="13" rot="MR180"/>
+<attribute name="VALUE" x="54.065" y="36.705" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="C9" library="reg,cap" package="1005" value="1.0u" x="58.1" y="49.5" smashed="yes" rot="MR270">
+<attribute name="NAME" x="58.338" y="51.735" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="60.005" y="50.135" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="IC1" library="EEPROM" package="V-PDFN-8" value="N25Q512A" x="54.1" y="57.8" smashed="yes" rot="MR270">
+<attribute name="NAME" x="58.165" y="59.235" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="58.1" y="61.435" size="0.8128" layer="28" rot="MR270"/>
+</element>
 <element name="C11" library="reg,cap" package="1005" value="0.1u" x="52.7" y="51.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="53.335" y="52.662" size="1.27" layer="26" rot="MR0"/>
+<attribute name="NAME" x="53.635" y="50.562" size="0.8128" layer="26" font="vector" ratio="13" rot="MR0"/>
 <attribute name="VALUE" x="53.335" y="49.995" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="LED1" library="LED" package="1608-OLI" value="" x="59.4" y="35.4" rot="MR270"/>
-<element name="R14" library="reg,cap" package="1005" value="10k" x="60.2" y="39.5" rot="MR180"/>
-<element name="IC3" library="GYRO" package="QFN-24" value="MPU-9250" x="54.4" y="38.1" rot="MR270"/>
-<element name="R15" library="reg,cap" package="1005" value="100k" x="55.3" y="51.9" rot="MR0"/>
-<element name="R10" library="reg,cap" package="1005" value="100" x="60.3" y="54" rot="MR0"/>
+<element name="LED1" library="LED" package="1608-OLI" value="" x="59.4" y="35.4" smashed="yes" rot="MR270">
+<attribute name="NAME" x="58.938" y="35.935" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="61.432" y="36.035" size="1.27" layer="28" font="vector" ratio="20" rot="MR270"/>
+</element>
+<element name="R14" library="reg,cap" package="1005" value="10k" x="60.2" y="39.5" smashed="yes" rot="MR180">
+<attribute name="NAME" x="61.265" y="39.838" size="0.8128" layer="26" font="vector" ratio="13" rot="MR180"/>
+<attribute name="VALUE" x="59.565" y="41.405" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="IC3" library="GYRO" package="QFN-24" value="MPU-9250" x="54.4" y="38.1" smashed="yes" rot="MR270">
+<attribute name="NAME" x="51.68" y="39.88" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="50.59" y="43.18" size="1.778" layer="28" rot="MR270"/>
+</element>
+<element name="R15" library="reg,cap" package="1005" value="100k" x="55.3" y="51.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="56.335" y="50.562" size="0.8128" layer="26" font="vector" ratio="13" rot="MR0"/>
+<attribute name="VALUE" x="55.935" y="49.995" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="R10" library="reg,cap" package="1005" value="100" x="60.3" y="54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="60.735" y="52.762" size="0.8128" layer="26" font="vector" ratio="13" rot="MR0"/>
+<attribute name="VALUE" x="60.935" y="52.095" size="1.27" layer="28" rot="MR0"/>
+</element>
 <element name="D1" library="diode" package="SOT143" value="SP0503BAH" x="60.6" y="57.95" smashed="yes" rot="MR180">
-<attribute name="NAME" x="59" y="56.35" size="1.27" layer="26" rot="MR180"/>
+<attribute name="NAME" x="60.1" y="61.05" size="0.8128" layer="26" font="vector" ratio="13" rot="MR180"/>
 <attribute name="VALUE" x="59" y="60.8" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R11" library="reg,cap" package="1005" value="1k" x="58.9393" y="44.9891" rot="MR90"/>
-<element name="R9" library="reg,cap" package="1005" value="100k" x="60.8" y="54.8" rot="MR0"/>
-<element name="D3" library="diode" package="SOD323-W" value="CUS08F30" x="60.8" y="33.2" rot="MR90"/>
-<element name="D4" library="diode" package="SOD323-W" value="CUS08F30" x="51.4" y="33.2" rot="MR90"/>
-<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="" x="56.1" y="32.5" rot="MR180">
-<attribute name="PROD_ID" value="SWCH-13065" x="56.1" y="32.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R11" library="reg,cap" package="1005" value="1k" x="58.9393" y="44.9891" smashed="yes" rot="MR90">
+<attribute name="NAME" x="59.5013" y="43.9541" size="0.8128" layer="26" font="vector" ratio="13" rot="MR90"/>
+<attribute name="VALUE" x="57.0343" y="44.3541" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R7" library="reg,cap" package="1005" value="10k" x="60.4" y="37" rot="MR270"/>
-<element name="R6" library="reg,cap" package="1005" value="10k" x="61.2" y="37" rot="MR270"/>
+<element name="R9" library="reg,cap" package="1005" value="100k" x="60.8" y="54.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="62.735" y="53.462" size="0.8128" layer="26" font="vector" ratio="13" rot="MR0"/>
+<attribute name="VALUE" x="61.435" y="52.895" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="D3" library="diode" package="SOD323-W" value="CUS08F30" x="60.8" y="33.2" smashed="yes" rot="MR90">
+<attribute name="NAME" x="59" y="32.5" size="0.8128" layer="26" font="vector" ratio="13" rot="MR90"/>
+<attribute name="VALUE" x="58.5" y="32.1" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="D4" library="diode" package="SOD323-W" value="CUS08F30" x="51.4" y="33.2" smashed="yes" rot="MR90">
+<attribute name="NAME" x="52.4" y="32.6" size="0.8128" layer="26" font="vector" ratio="13" rot="MR90"/>
+<attribute name="VALUE" x="49.1" y="32.1" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="" x="56.1" y="32.5" smashed="yes" rot="MR180">
+<attribute name="NAME" x="56.1" y="30.976" size="0.8128" layer="26" font="vector" ratio="13" rot="MR180" align="bottom-center"/>
+<attribute name="PROD_ID" value="SWCH-13065" x="56.1" y="32.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VALUE" x="56.1" y="34.024" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
+</element>
+<element name="R7" library="reg,cap" package="1005" value="10k" x="60.4" y="37" smashed="yes" rot="MR270">
+<attribute name="NAME" x="60.638" y="39.135" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="62.305" y="37.635" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="R6" library="reg,cap" package="1005" value="10k" x="61.2" y="37" smashed="yes" rot="MR270">
+<attribute name="NAME" x="61.638" y="39.135" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="63.105" y="37.635" size="1.27" layer="28" rot="MR270"/>
+</element>
 <element name="FET1" library="MOSFET" package="SOT23" value="DMN3404L" x="53.4" y="54.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.495" y="52.695" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
+<attribute name="NAME" x="49.095" y="54.105" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="56.575" y="52.695" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R13" library="reg,cap" package="1005" value="10k" x="55.5" y="52.7" smashed="yes">
-<attribute name="NAME" x="54.865" y="53.462" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="54.465" y="51.462" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="54.865" y="50.795" size="1.27" layer="27"/>
 </element>
 <element name="TP2" library="testpad" package="TP10R" value="PTR1TP10R" x="51.9" y="55.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.4001" y="55.2501" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="NAME" x="51.1001" y="56.1501" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="51.9" y="57.705" size="1" layer="37" rot="R180"/>
 <attribute name="VALUE" x="52.281" y="56.308" size="0.0254" layer="27" rot="R180"/>
 </element>
 <element name="TP1" library="testpad" package="TP10R" value="PTR1TP10R" x="51.9" y="53.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.4001" y="52.7501" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="NAME" x="51.2001" y="53.6501" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="51.9" y="55.205" size="1" layer="37" rot="R180"/>
 <attribute name="VALUE" x="52.281" y="53.808" size="0.0254" layer="27" rot="R180"/>
 </element>
-<element name="R5" library="reg,cap" package="1005" value="10k" x="59.3" y="43.1" rot="MR180"/>
+<element name="R5" library="reg,cap" package="1005" value="10k" x="59.3" y="43.1" smashed="yes" rot="MR180">
+<attribute name="NAME" x="58.165" y="42.638" size="0.8128" layer="26" font="vector" ratio="13" rot="MR180"/>
+<attribute name="VALUE" x="58.665" y="45.005" size="1.27" layer="28" rot="MR180"/>
+</element>
 <element name="R12" library="reg,cap" package="1005" value="100" x="55.5" y="54.6" smashed="yes">
-<attribute name="NAME" x="54.865" y="55.362" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="55.365" y="55.162" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="54.865" y="52.695" size="1.27" layer="27"/>
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="60.2" y="41.3" smashed="yes" rot="MR90">
-<attribute name="NAME" x="62.0288" y="39.9538" size="1.27" layer="26" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="61.7288" y="40.4538" size="0.8128" layer="26" font="vector" ratio="13" rot="MR90"/>
 <attribute name="VALUE" x="57.025" y="40.03" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="CN1" library="Connector" package="MICROUSB(MC-5F-02)" value="MICROUSB(MC-5F-02)" x="57.35" y="58.3" rot="R90"/>
+<element name="CN1" library="Connector" package="MICROUSB(MC-5F-02)" value="MICROUSB(MC-5F-02)" x="57.35" y="58.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.725" y="62.33" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="65.23" y="54.8075" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="C2" library="CH_passive" package="0805" value="22uF" x="52.1279" y="57.3889" smashed="yes">
-<attribute name="NAME" x="51.3659" y="58.2144" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="49.4659" y="57.0144" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="51.1119" y="55.9919" size="0.4064" layer="27"/>
 </element>
-<element name="R8" library="reg,cap" package="1005" value="1k (Optional)" x="50.8" y="49.3" rot="MR90"/>
+<element name="R8" library="reg,cap" package="1005" value="1k (Optional)" x="50.8" y="49.3" smashed="yes" rot="MR90">
+<attribute name="NAME" x="51.562" y="48.665" size="0.8128" layer="26" font="vector" ratio="13" rot="MR90"/>
+<attribute name="VALUE" x="48.895" y="48.665" size="1.27" layer="28" rot="MR90"/>
+</element>
 <element name="C8" library="CH_passive" package="0805" value="22uF" x="52.8" y="51.9" smashed="yes">
-<attribute name="NAME" x="52.038" y="52.7255" size="0.4064" layer="25" font="vector"/>
+<attribute name="NAME" x="50.038" y="51.2255" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="51.784" y="50.503" size="0.4064" layer="27"/>
 </element>
 <element name="C3" library="CH_passive" package="0805" value="22uF" x="56.3" y="40.9" smashed="yes">
-<attribute name="NAME" x="55.538" y="41.7255" size="0.4064" layer="25" font="vector"/>
+<attribute name="NAME" x="58.1" y="40.4" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="55.284" y="39.503" size="0.4064" layer="27"/>
 </element>
 <element name="C4" library="reg,cap" package="1005" value="0.1u" x="56.1" y="42.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="56.735" y="41.438" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="NAME" x="57.5" y="41.7" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="56.735" y="44.105" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C7" library="CH_passive" package="0805" value="22uF" x="55.7" y="47.6" smashed="yes">
-<attribute name="NAME" x="54.938" y="48.4255" size="0.8128" layer="25" font="vector" ratio="13"/>
+<attribute name="NAME" x="53.138" y="47.2255" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="54.684" y="46.203" size="0.4064" layer="27"/>
 </element>
-<element name="C10" library="reg,cap" package="1005" value="0.1u" x="58.9" y="49.5" rot="MR270"/>
-<element name="R16" library="reg,cap" package="1005" value="100k" x="58.7" y="62.7" rot="MR180"/>
+<element name="C10" library="reg,cap" package="1005" value="0.1u" x="58.9" y="49.5" smashed="yes" rot="MR270">
+<attribute name="NAME" x="59.338" y="52.435" size="0.8128" layer="26" font="vector" ratio="13" rot="MR270"/>
+<attribute name="VALUE" x="60.805" y="50.135" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="R16" library="reg,cap" package="1005" value="100k" x="58.7" y="62.7" smashed="yes" rot="MR180">
+<attribute name="NAME" x="59.865" y="63.138" size="0.8128" layer="26" font="vector" ratio="13" rot="MR180"/>
+<attribute name="VALUE" x="58.065" y="64.605" size="1.27" layer="28" rot="MR180"/>
+</element>
 <element name="JP1" library="pin_header" package="MA3-1" value="3X1" x="60.7" y="49.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="63.875" y="46.025" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
+<attribute name="NAME" x="59.275" y="51.525" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 <attribute name="VALUE" x="65.78" y="46.66" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
