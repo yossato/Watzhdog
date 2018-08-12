@@ -9,19 +9,19 @@
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -33,11 +33,11 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2032,7 +2032,7 @@ design rules under a new name.</description>
 <signal name="LIN" class="1">
 <contactref element="U2" pad="3"/>
 <contactref element="L1" pad="P$1"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1">
 <vertex x="56.1" y="44.9"/>
 <vertex x="54.5" y="44.9"/>
 <vertex x="53.8" y="45.6"/>
@@ -2463,7 +2463,7 @@ design rules under a new name.</description>
 <wire x1="61.7" y1="35" x2="61.7" y2="43.25" width="0.2032" layer="1"/>
 <wire x1="51.4431" y1="58.9795" x2="51.2279" y2="58.7643" width="0.508" layer="1"/>
 <wire x1="51.2279" y1="58.7643" x2="51.2279" y2="57.3889" width="0.508" layer="1"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1">
 <vertex x="55.5" y="35.2"/>
 <vertex x="55.5" y="40"/>
 <vertex x="56.1" y="40.6"/>
@@ -2620,7 +2620,7 @@ design rules under a new name.</description>
 <via x="57.18" y="62.2059" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="58.2" y="50.9" extent="1-16" drill="0.3048" shape="octagon"/>
 <via x="57.43" y="60.7059" extent="1-16" drill="0.3048" shape="octagon"/>
-<polygon width="0.1524" layer="1" spacing="1.016" isolate="0.2032" thermals="no" rank="6">
+<polygon width="0.1524" layer="1" spacing="1.016" isolate="0.2032" rank="6">
 <vertex x="49.6" y="63.885"/>
 <vertex x="62.5" y="63.885"/>
 <vertex x="62.5" y="29.87"/>
